@@ -1,1 +1,1 @@
-export 'covid_app.dart';
+export 'covid-app/covid_app.dart';
