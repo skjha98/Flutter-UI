@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:random_ui/covid-app/covid-app1.dart';
 
 class CovidApp extends StatefulWidget {
   @override
@@ -69,6 +70,7 @@ class _CovidAppState extends State<CovidApp> {
                       onTap: () {
                         setState(() {
                           tapped=tapped?false:true;
+                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => CovidAppPage1()));
                         });
                       },
                       child: Container(
